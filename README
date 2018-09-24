@@ -1,0 +1,30 @@
+Introduction
+============
+
+This script is written by PERL, and it doesn't rely on other software and modules.
+You can download PERL from https://www.perl.org/
+
+Function
+========
+
+Batch translation of DNA sequences into protein sequences by using the six-frame translation method.
+
+Usage
+=====
+
+perl dna_to_protein.pl <dna_fasta_file>
+
+explain
+=======
+
+X indicates any amino acid, and * indicates stop codon (you can modify it on line 16 of the script).
+
+notice
+======
+
+Except for the beginning, character > can't appear in the sequence name.
+
+output
+======
+
+A DNA sequence produces six protein sequences, + and - indicates positive and negative strand respectively.
